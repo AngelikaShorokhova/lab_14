@@ -141,14 +141,19 @@ namespace lab_14
 
             Console.WriteLine("Рабочие первого цеха:");
             WorkersOfFirstWorkshop(people);
+
             Console.WriteLine("Служащие-секретари:");
             EmplOfThisProfession(people);
+
             Console.WriteLine("Количество служащих со стажем более 10 лет:");
             NumberOfEmpl(people);
+
             Console.WriteLine("Пересечение:");
             Intersection(factory1, factory2);
+
             Console.WriteLine("Самые взрослые и самые молодые работники:");
             MaxMin(people);
+
             Console.WriteLine("Группировка рабочих:");
             Group(people);
         }
